@@ -3,6 +3,30 @@
     <head>
         <meta charset="UTF-8">
         <title>Nick's Bio</title>
+        <style>
+            h1,h2 {
+                background-color: navy;
+                border:3px solid black;
+                padding:5px;
+            }
+            img {
+                display:block;
+                margin:auto;
+                width: 200px;
+            }
+            p {
+                padding:10px;
+                margin:10px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .larger-text {
+                font-size: 20px;
+            }
+            img:hover {
+                transform: rotate(10deg);
+                width: 300px;
+            }
+        </style>
     </head>
     <body>
         <h1>
@@ -11,14 +35,14 @@
         <h2>
             Nick Bombicino
         </h2>
-        <img src="IMG_8384.JPG" style="width: 200px;" style="height: 200px;" alt="Nick Bombicino">
+        <img src="IMG_8384.JPG" alt="Nick Bombicino">
     </body>
     <p>
         Nick is an Actor, Musician, and (budding) expert web developer, pending survival of this upcoming bootcamp. His biggest interests outside of his work are photography, puppy watching, and food (making and consuming).
     </p>
     <h2>Contact Info</h2>
     <ul>
-        <li>Email: <a href=mailto:nick.bombicino@gmail.com>nick.bombicino@gmail.com</a></li>
+        <li>Email: <a class="larger-text" href=mailto:nick.bombicino@gmail.com>nick.bombicino@gmail.com</a></li>
         <li>GitHub: <a href=https://github.com/bombichino>bombichino</a></li>
         <li>Portfolio: Coming Soon</li>
     </ul>
